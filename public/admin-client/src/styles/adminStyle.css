@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", "Noto Sans TC", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+body .my-navbar {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 5px 5px 6px 4px rgba(0, 0, 0, 0.3);
+}
+body .my-navbar .nav-item,
+body .my-navbar .nav-link {
+  font-size: 1.1rem;
+  padding: 0 0.1rem;
+}
+body .my-navbar .nav-item .active,
+body .my-navbar .nav-link .active {
+  font-size: 1.1rem;
+}
+body .card,
+body .dropdown-menu {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.5333333333);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  box-shadow: 5px 5px 10px 8px rgba(0, 0, 0, 0.3);
+  color: #000;
+}
+body .card table,
+body .dropdown-menu table {
+  color: #000;
+}
+body .card .card-header,
+body .dropdown-menu .card-header {
+  background-color: rgba(0, 0, 0, 0);
+}
+body .card.dropdown-menu,
+body .dropdown-menu.dropdown-menu {
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+body .card.dropdown-menu a,
+body .dropdown-menu.dropdown-menu a {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  transition: 0.3s all ease;
+  border-radius: 0.5rem;
+}
+body .card.dropdown-menu a.active,
+body .dropdown-menu.dropdown-menu a.active {
+  color: #fff !important;
+  background-color: #555;
+}
+body .card.dropdown-menu a.active:hover,
+body .dropdown-menu.dropdown-menu a.active:hover {
+  cursor: default;
+  background-color: #555;
+}
+body .card.dropdown-menu a:hover,
+body .dropdown-menu.dropdown-menu a:hover {
+  background-color: #ccc;
+}
+body .login-page .login-container {
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.5333333333);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+body .login-page .login-container .login-form {
+  filter: hue-rotate(190deg);
+}
+body .customization-page .text,
+body .positions-page .text {
+  padding: 0.4rem 0;
+}
+body .customization-page .control-btn,
+body .positions-page .control-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  transition: all 0.2s;
+  border: 1px solid #aaa;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  color: #444;
+}
+body .customization-page .control-btn span,
+body .positions-page .control-btn span {
+  padding-left: 0.2rem;
+}
+body .customization-page .control-btn:hover,
+body .positions-page .control-btn:hover {
+  transition: all 0.2s;
+  color: #fff;
+  background-color: #888;
+}
+body .customization-page .control-btn-delete,
+body .positions-page .control-btn-delete {
+  border: 1px solid #d55;
+  color: #d55;
+}
+body .customization-page .control-btn-delete:hover,
+body .positions-page .control-btn-delete:hover {
+  border: 1px solid #aaa;
+}
+body .customization-page .control-btn-done,
+body .positions-page .control-btn-done {
+  border: 1px solid #3266de;
+  color: #3266de;
+}
+body .customization-page .control-btn-done:hover,
+body .positions-page .control-btn-done:hover {
+  background-color: #3266de;
+}
+body .accordion {
+  border-radius: 1rem;
+}
+body .accordion .accordion-button {
+  border-radius: 1rem;
+}
+body .accordion .accordion-button:focus {
+  box-shadow: none;
+}
+body .accordion .accordion-item .accordion-header {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+body .accordion .accordion-item:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+body .accordion .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+body .accordion .accordion-item:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+body .accordion .accordion-item:last-of-type .accordion-button {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+body .dataTables_wrapper {
+  overflow-x: auto;
+}
+body .dataTables_wrapper .row {
+  margin-left: 0;
+  margin-right: 0;
+}/*# sourceMappingURL=adminStyle.css.map */

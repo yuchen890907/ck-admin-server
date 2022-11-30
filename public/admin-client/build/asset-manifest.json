@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d19bfe22.css",
+    "main.js": "/static/js/main.e63d78fb.js",
+    "static/media/background.jpg": "/static/media/background.9659074647326c38ae5c.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/logo_horizon.svg": "/static/media/logo_horizon.73e71635453edf8a18355dad44a5d591.svg",
+    "static/media/logo.svg": "/static/media/logo.fdb7470c3d28d4808360e6e13a6f5728.svg",
+    "index.html": "/index.html",
+    "main.d19bfe22.css.map": "/static/css/main.d19bfe22.css.map",
+    "main.e63d78fb.js.map": "/static/js/main.e63d78fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d19bfe22.css",
+    "static/js/main.e63d78fb.js"
+  ]
+}
